@@ -1,0 +1,31 @@
+:root {
+  /* light theme tokens */
+  --bg-primary-light: 255, 255, 255;
+  --text-primary-light: 0, 0, 0;
+  --popup-border-light: 208, 208, 208;
+  --element-primary-light: 0, 0, 0;
+  --bg-nav-link-light: 237, 237, 237;
+
+  /* dark theme tokens */
+  --bg-primary-dark: 30, 31, 35;
+  --text-primary-dark: 255, 255, 255;
+  --popup-border-dark: 208, 208, 208;
+  --element-primary-dark: 255, 255, 255;
+  --bg-nav-link-dark: 50, 53, 57;
+}
+
+[data-theme='dark'] {
+  --bg-primary: var(--bg-primary-dark);
+  --text-primary: var(--text-primary-dark);
+  --popup-border: var(--popup-border-dark);
+  --element-primary: var(--element-primary-dark);
+  --bg-nav-link: var(--bg-nav-link-dark);
+}
+
+[data-theme='light'] {
+  --bg-primary: var(--bg-primary-light);
+  --text-primary: var(--text-primary-light);
+  --popup-border: var(--popup-border-light);
+  --element-primary: var(--element-primary-light);
+  --bg-nav-link: var(--bg-nav-link-light);
+}

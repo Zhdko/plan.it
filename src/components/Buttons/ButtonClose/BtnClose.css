@@ -1,0 +1,31 @@
+.close-btn {
+  border: 2px solid rgba(var(--element-primary), 1);
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.close-btn span {
+  display: block;
+}
+
+.close-btn span,
+.close-btn::before {
+  position: absolute;
+  left: 4.9px;
+  top: 9.9px;
+  width: 12px;
+  height: 2px;
+  background-color: rgba(var(--element-primary), 1);
+  border-radius: 2px;
+}
+
+.close-btn::before {
+  content: '';
+  transition: 0.2s;
+}
+
+.close-btn_close::before {
+  transform: rotate(90deg);
+}

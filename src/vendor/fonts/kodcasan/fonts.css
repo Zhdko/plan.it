@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Kodchasan';
+  src: url(./kodchasan-extralight-webfont.woff) format('woff');
+  src: url(./kodchasan-extralight-webfont.woff2) format('woff2');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Kodchasan';
+  src: url(./kodchasan-regular-webfont.woff) format('woff');
+  src: url(./kodchasan-regular-webfont.woff2) format('woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Kodchasan';
+  src: url(./kodchasan-medium-webfont.woff) format('woff');
+  src: url(./kodchasan-medium-webfont.woff2) format('woff2');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Kodchasan';
+  src: url(./kodchasan-semibold-webfont.woff) format('woff');
+  src: url(./kodchasan-semibold-webfont.woff) format('woff2');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Kodchasan';
+  src: url(./kodchasan-bold-webfont.woff) format('woff');
+  src: url(./kodchasan-bold-webfont.woff2) format('woff2');
+  font-weight: 700;
+}

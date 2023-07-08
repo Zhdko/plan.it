@@ -1,0 +1,30 @@
+.navigation__link {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 6px 15px;
+  transition: 0.2s;
+}
+
+.navigation__text {
+  font-family: 'Kodchasan', Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 17px;
+}
+
+.navigation__link:hover {
+  border-radius: 8px;
+  background-color: rgba(var(--bg-nav-link), 0.5);
+}
+
+.active {
+  border-radius: 8px;
+  background-color: rgb(var(--bg-nav-link));
+}
+
+.navigation__icon * {
+  width: 20px;
+  height: 20px;
+  fill: rgb(var(--element-primary));
+}

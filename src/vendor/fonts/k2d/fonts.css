@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'K2D';
+  src: url(./k2d-regular-webfont.woff) format('woff');
+  src: url(./k2d-regular-webfont.woff2) format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'K2D';
+  src: url(./k2d-medium-webfont.woff) format('woff');
+  src: url(./k2d-medium-webfont.woff2) format('woff2');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'K2D';
+  src: url(./k2d-semibold-webfont.woff) format('woff');
+  src: url(./k2d-semibold-webfont.woff2) format('woff2');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'K2D';
+  src: url(./k2d-bold-webfont.woff) format('woff');
+  src: url(./k2d-bold-webfont.woff2) format('woff2');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'K2D';
+  src: url(./k2d-extrabold-webfont.woff) format('woff');
+  src: url(./k2d-extrabold-webfont.woff2) format('woff2');
+  font-weight: 800;
+}

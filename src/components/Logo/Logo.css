@@ -1,0 +1,20 @@
+.logo {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.logo__text {
+  font-family: 'Kodchasan', Arial, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.logo__icon {
+  width: 20px;
+  height: 20px;
+}
+
+.logo__icon * {
+  fill: rgb(var(--element-primary));
+}

@@ -1,0 +1,13 @@
+.slider {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgb(var(--popup-border));
+  min-width: 200px;
+}
+
+.slider__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}

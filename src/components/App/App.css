@@ -1,0 +1,7 @@
+.page {
+  background-color: rgb(var(--bg-primary));
+  color: rgb(var(--text-primary));
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+}
